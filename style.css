@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    min-width: 205px;
+    text-align: left;
+    padding: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#nao {
+    cursor: default;
+}
